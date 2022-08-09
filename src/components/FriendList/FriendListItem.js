@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <li className="item">
@@ -9,9 +7,3 @@ export default function FriendListItem({ avatar, name, isOnline }) {
     </li>
   );
 }
-
-FriendListItem.propTypes = {
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  isOnline: PropTypes.bool,
-};

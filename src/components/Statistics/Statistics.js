@@ -5,10 +5,10 @@ export default function Statistics({ title, stats }) {
     <section className="statistics">
       {isTrue ? <h2 className="title">{title}</h2> : null}
       <ul className="stat-list">
-        {stats.map(item => (
-          <li key={item.id} className="item">
-            <span className="label">{item.label}</span>
-            <span className="percentage">{item.percentage}%</span>
+        {stats.map(({ id, label, percentage }) => (
+          <li key={id} className="item">
+            <span className="label">{label}</span>
+            <span className="percentage">{percentage}%</span>
           </li>
         ))}
       </ul>

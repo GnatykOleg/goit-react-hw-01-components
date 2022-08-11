@@ -1,0 +1,35 @@
+
+.friends__item{
+    display: flex;
+        align-items: center;
+    padding: 10px 20px;
+    width: 250px;
+        box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+}
+.friends__item:not(:last-child) {
+   
+    margin-bottom: 15px;
+}
+
+.friends__name{
+    margin-left: 15px;
+    font-weight: 500;
+        font-size: 24px;
+        line-height: 1.19;
+}
+
+.online{
+    background-color: green;
+    width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-right: 30px;
+}
+.offline{
+    width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        margin-right: 30px;
+    background-color: red;
+}
+

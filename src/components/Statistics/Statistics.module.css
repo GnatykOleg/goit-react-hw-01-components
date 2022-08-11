@@ -1,48 +1,45 @@
-.statistics{
-    position: relative;
-    min-width: 400px;
-    height: 200px;
-    background-color: rgba(65, 65, 66, 0.233);
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+.statistics {
+  position: relative;
+  min-width: 400px;
+  height: 200px;
+  background-color: rgba(65, 65, 66, 0.233);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
 }
-.statistics__title{
-    text-transform: uppercase;
-    text-align: center;
-        font-weight: 500;
-            font-size: 35px;
-            line-height: 1.19;
-            padding-top: 50px;
-            color: white;
-           
+.statistics__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.19;
+  padding-top: 50px;
+  color: white;
 }
-.statistics__list{
-    display: flex;
-    position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+.statistics__list {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
-.statistics__item{
-    display: flex;
-   
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-    border: 1px solid black;
+.statistics__item {
+  display: flex;
 
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
 }
-.statistics__label{
-    color: white;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.19;
-        
+.statistics__label {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
 }
-.statistics__percentage{
-    color: white;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 1.19;
-        
+.statistics__percentage {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.19;
 }

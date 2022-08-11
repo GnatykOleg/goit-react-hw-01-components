@@ -1,33 +1,31 @@
 .table {
-    min-width: 300px;
-    border: 1px solid black;
+  min-width: 300px;
+  border: 1px solid black;
 }
 
-.thead{
-background-color: rgb(26, 181, 228);
+.thead {
+  background-color: rgb(26, 181, 228);
 }
 
-.tr__th{
-    color: white;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.19;
-        padding: 10px;
-            text-align: center;
-            text-transform: uppercase;
+.tr__th {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-
-.tbody__td{
-color: black;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.19;
-    padding: 10px;
-    text-align: center;
+.tbody__td {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
+  padding: 10px;
+  text-align: center;
 }
 
-
-.tbody__tr:nth-child(2n+1) {
-    background-color: rgb(213, 216, 213);
+.tbody__tr:nth-child(2n + 1) {
+  background-color: rgb(213, 216, 213);
 }
